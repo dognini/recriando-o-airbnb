@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'airbnbBlack';
+    src: url('../fonts/AirbnbCerealBlack.ttf');
+}
+@font-face {
+    font-family: 'airbnbLight';
+    src: url('../fonts/AirbnbCerealLight.ttf');
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.topo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 57px;
+    background: #222222;
+}
+
+.b{
+    color: #b3b3b3;
+    cursor: pointer;
+    text-decoration: underline;
+    font-family: 'airbnbLight';
+    font-size: 14px;
+}
+
+.b:hover{
+    color: #898989;
+}
+
+.fundo{
+    height: 560px;
+    background-image: url('../image/fundo-airbnb.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
