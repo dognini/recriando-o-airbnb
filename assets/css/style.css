@@ -1,10 +1,14 @@
 @font-face {
-    font-family: 'airbnbBlack';
+    font-family: 'fontlack';
     src: url('../fonts/AirbnbCerealBlack.ttf');
 }
 @font-face {
-    font-family: 'airbnbLight';
+    font-family: 'light';
     src: url('../fonts/AirbnbCerealLight.ttf');
+}
+@font-face {
+    font-family: 'bold';
+    src: url('../fonts/AirbnbCerealBold.ttf');
 }
 
 body{
@@ -25,7 +29,7 @@ body{
     color: #b3b3b3;
     cursor: pointer;
     text-decoration: underline;
-    font-family: 'airbnbLight';
+    font-family: 'light';
     font-size: 14px;
     flex-wrap: wrap;
 }
@@ -64,7 +68,7 @@ body{
 }
 
 .itemMenu{
-    font-family: 'airbnbLight';
+    font-family: 'light';
     font-weight: 500px;
     font-size: 17px;
     flex-wrap: wrap;
@@ -86,7 +90,7 @@ body{
 .menuButton{
     background: transparent;
     color: #222222;
-    font-family: 'airbnbLight';
+    font-family: 'light';
     font-size: 14px;
     font-weight: 600;
     padding: 12px 15px;
@@ -177,13 +181,13 @@ body{
 
 .primeiro-item{
     font-size: 13px;
-    font-family: 'airbnbLight';
+    font-family: 'light';
     font-weight: 600;
 }
 
 .segundo-item{
     font-size: 14px;
-    font-family: 'airbnbLight';
+    font-family: 'light';
     font-weight: 400;
     color: gray;
 }
@@ -243,3 +247,45 @@ body{
 .botaoBuscar{
     flex: 1;
 }
+
+.natureza{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px;
+}
+
+.oMelhor{
+    font-size: 60px;
+    font-family: 'bold';
+    color: #222222;
+}
+
+.oMelhor2{
+    font-size: 60px;
+    font-family: 'bold';
+    color: #222222;
+    margin-top: -20px;
+}
+
+.sugestoes{
+    font-size: 20px;
+    font-family: 'light';
+    margin-top: 3px;
+}
+
+.inspire{
+    padding: 10px 10px;
+    border: 0;
+    border-radius: 10px;
+    background: #222222;
+    color: white;
+    font-family: 'bold';
+    width: 100px;
+    cursor: pointer;
+}
+
+.inspire:hover{
+    background: #2b2a2a;
+}
+
