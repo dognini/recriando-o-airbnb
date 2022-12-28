@@ -131,3 +131,115 @@ body{
 .accountIcon{
     margin-left: 12px;
 }
+
+.buscas{
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divBuscar{
+    height: 100%;
+    background: white;
+    border: 0;
+    border-radius: 45px;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.itemBuscar{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.itemBuscar1{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.itemBuscar4{
+    flex: 2;
+    display: flex;
+    flex-direction: column; 
+}
+
+.buscar1{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.primeiro-item{
+    font-size: 13px;
+    font-family: 'airbnbLight';
+    font-weight: 600;
+}
+
+.segundo-item{
+    font-size: 14px;
+    font-family: 'airbnbLight';
+    font-weight: 400;
+    color: gray;
+}
+
+.separator{
+    position: absolute;
+    height: 35px;
+    width: 1px;
+    background: rgb(172, 171, 171);
+    margin-left: 230px;
+}
+
+.itensBuscar4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.separator2{
+    position: absolute;
+    height: 35px;
+    width: 1px;
+    background: rgb(172, 171, 171);
+    margin-left: 255px;
+}
+
+.separator3{
+    position: absolute;
+    height: 35px;
+    width: 1px;
+    background: rgb(172, 171, 171);
+    margin-left: -15px;
+}
+
+.buttonBuscar{
+    background: #ff385c;
+    border: 0;
+    outline: 0;
+    border-radius: 50%;
+    padding: 14px;
+    width: 50px;
+    height: 50px;
+    color: white;
+    margin-left: 63px;
+}
+
+.buttonBuscar:hover{
+    background: #e41d5d;
+}
+
+.button2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.botaoBuscar{
+    flex: 1;
+}
