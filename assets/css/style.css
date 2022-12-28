@@ -44,7 +44,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
-    flex-wrap: wrap;
 }
 
 .menu{
@@ -52,7 +51,6 @@ body{
     flex-direction: row;
     align-items: center;
     height: 80px;
-    flex-wrap: wrap;
 }
 
 .menuLogo{
@@ -265,13 +263,12 @@ body{
     font-size: 60px;
     font-family: 'bold';
     color: #222222;
-    margin-top: -20px;
 }
 
 .sugestoes{
     font-size: 20px;
     font-family: 'light';
-    margin-top: 3px;
+    margin-top: 10px;
 }
 
 .inspire{
@@ -283,9 +280,74 @@ body{
     font-family: 'bold';
     width: 100px;
     cursor: pointer;
+    margin-top: 20px;
 }
 
 .inspire:hover{
     background: #2b2a2a;
 }
 
+.explore{
+    margin-left: 80px;
+    font-family: 'bold';
+    font-size: 30px;
+    font-weight: 900px;
+    color: #222222;
+}
+
+.locais{
+    height: 70px;
+    margin-top: 11px;
+    padding: 10px 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.locais2{
+    height: 70px;
+    margin-top: -8px;
+    padding: 10px 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.localItem{
+    flex: 1;
+    display: flex;
+    gap: 1rem;
+}
+
+.imagemLocal{
+    flex: 1;
+}
+
+.textoLocal{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textoLocal b{
+    font-family:'bold';
+    color: #222222;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.textoLocal p{
+    font-family: 'light';
+    color: #222222;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.imgLocal{
+    border-radius: 10px;
+    width: 4rem;
+    height:4rem ;
+    margin-top: 10px;
+}
