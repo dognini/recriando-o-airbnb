@@ -459,10 +459,46 @@ body{
 }
 
 .atividades{
-    font-size: 20px;
+    font-size: 21px;
     font-family: 'light';
     color: #222222;
     margin-left: 80px;
     margin-top: 15px;
-    font-weight: 800;
+    font-weight: 600;
+}
+
+.AtividadeTodo{
+    padding: 10px 80px;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+}
+
+.atividadeItem{
+    flex: 1;
+    display: block;
+    justify-content: center;
+}
+
+.atividadeItem img{
+    width: 100%;
+    max-width: 380px;
+    height: 380px;
+    border: 0;
+    border-radius: 10px;
+}
+
+.atividadeItem b{
+    font-family: 'bold';
+    font-size: 18px;
+    font-weight: 900;
+    color: #222222;
+}
+
+.atividadeItem p{
+    font-weight: 700;
+    font-family: 'light';
+    font-size: 14px;
+    margin-top: 5px;
+    color: #222222;
 }
