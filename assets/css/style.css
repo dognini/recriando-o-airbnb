@@ -502,3 +502,35 @@ body{
     margin-top: 5px;
     color: #222222;
 }
+
+.footer{
+    height: 540px;
+    display: flex;
+    background: #f7f7f7;
+}
+
+.separador{
+    height: 1px;
+    background: rgb(187, 186, 186);
+}
+
+.footer__div{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__div b{
+    margin-left: 100px;
+    margin-top: 70px;
+    font-family: 'bold';
+}
+
+.footer__div p{
+    margin-left: 100px;
+    margin-top: 20px;
+    font-family: 'light';
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(139, 138, 138);
+    cursor: pointer;
+}
